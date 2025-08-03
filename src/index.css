@@ -1,0 +1,69 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI';
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+button.increment {
+  background-color: rgb(83, 172, 83);
+  color: white;
+}
+
+button.increment:hover {
+  background-color: rgb(2, 192, 2);
+}
+
+button.decrement {
+  background-color: #a72525;
+  color: white;
+}
+
+button.decrement:hover {
+  background-color: red;
+}
+
+button.reset {
+  background-color: grey;
+  color: white;
+}
+
+button.reset:hover {
+  background-color: #4b5563;
+}
