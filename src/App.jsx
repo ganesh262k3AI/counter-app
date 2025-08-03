@@ -4,7 +4,7 @@ import "./index.css";
 function App() {
   const [count, setCount] = useState(0);
 
-  function increase(prev){
+  function increase(){
     setCount(count+1)
   }
 
